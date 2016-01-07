@@ -7,6 +7,7 @@
 .container {
 	min-height: 100%;
 	height: auto;
+	font-weight: lighter;
 }
 
 .home {
@@ -48,12 +49,11 @@
 	background: #272a30;
 	text-align: center;
 	background-size: cover;
-
 }
 
 .next h1 {
 	text-align: center;
-	padding-top: 150px;
+	padding-top: 120px;
 	color: white;
 }
 
@@ -67,7 +67,7 @@
 	height: 200px;
 	width: 200px;
 	float: left;
-	margin: 15px;
+	margin: 15px 30px;
 }
 
 .widget img {
@@ -82,4 +82,29 @@
 .widget p {
 	color: white;
 	padding-top: 10px;
+}
+
+#lang {
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.screenshots {
+	background: #172a30;
+	text-align: center;
+	background-size: cover;
+}
+.rowshots {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin-top: 40px;
+}
+
+.pics {
+	float: left;
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
 }
