@@ -8,12 +8,14 @@
 	min-height: 100%;
 	height: auto;
 	font-weight: lighter;
+	min-width: 1100px;
 }
 
 .home {
-	background: url('http://www.archeeve.com/assets/images/background2.jpg') no-repeat center;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('http://www.archeeve.com/assets/images/background2.jpg') no-repeat center;
 	text-align: center;
 	background-size: cover;
+
 	/*opacity: 0.8;*/
 }
 
@@ -91,14 +93,21 @@
 }
 
 .screenshots {
-	background: #172a30;
+	background: #272830;
 	text-align: center;
 	background-size: cover;
+	padding-bottom: 80px;
 }
+
+.screenshots h1 {
+	text-align: center;
+	padding-top: 80px;
+	color: white;
+}
+
 .rowshots {
 	display: inline-block;
 	height: 200px;
-	width: 200px;
 	margin-top: 40px;
 }
 
@@ -106,5 +115,100 @@
 	float: left;
 	height: 200px;
 	width: 200px;
-	border: 1px solid black;
+	margin: 15px 30px;
+}
+
+.pics > a > img {
+	height: 200px;
+	width: 200px;
+}
+
+.app {
+	background: #272a30;
+	text-align: center;
+	background-size: cover;
+}
+
+.app h1 {
+	text-align: center;
+	padding-top: 120px;
+	color: white;
+}
+
+.app h3 {
+	color: white;
+	padding-top: 20px;
+}
+
+.app li {
+	display: inline-block;
+	margin: 80px 0 80px 0;
+}
+
+.app a {
+	padding: 0px 50px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 4px;
+	height: 50px;
+	width: 270px;
+	line-height: 50px;
+	color: white;
+	margin: 0 5px;
+}
+
+#green {
+	background: rgb(4, 188, 156);
+}
+
+#flat {
+	background: #272830;
+	cursor: default;
+}
+
+#green:hover {
+	background: rgb(4, 211, 174);
+}
+
+.footer {
+	background: #272830;
+	text-align: center;
+	background-size: cover;
+	padding-bottom: 40px;
+}
+
+.footer p {
+	color: white;
+	padding-top: 20px;
+}
+
+span {
+	padding-bottom: 3px;
+	border-bottom: 1px solid rgb(4, 188, 156);
+}
+
+span:hover {
+	padding-bottom: 5px;
+	border-bottom: 2px solid rgb(4, 211, 174);
+	cursor: pointer;
+}
+
+.logo {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    height: 35px;
+    width: 40px;
+	background: url('http://www.archeeve.com/assets/images/logo.png') no-repeat top center;
+	background-size: 40px 35px;
+}
+
+.olp {
+	position: fixed;
+    top: 20px;
+    right: 0;
+	width: 73px;
+    height: 56px;
+    background: url('https://s3.amazonaws.com/onepagelove/one-page-love-award-right.png') no-repeat;
+	background-size: 70px 55px;
 }
